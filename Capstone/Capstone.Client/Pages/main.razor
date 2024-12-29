@@ -1,0 +1,54 @@
+﻿@page "/counter"
+@rendermode InteractiveAuto
+
+<PageTitle>Counter</PageTitle>
+
+<div class="main">
+    <div class="top">
+        <div class="fields-container">
+            <table>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="rain">
+            <iframe></iframe>
+        </div>
+    </div>
+    <span></span>
+    <div class="db-link-container">
+        <table>
+            <tr></tr>
+        </table>
+    </div>
+</div>
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
